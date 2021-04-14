@@ -46,7 +46,7 @@ public class StepMainPageSearchTests {
       $(".searching-switcher").click();
       $$(".categories-column").filterBy(text(PROJECT + "ы")).first().click();
     });
-    step("Проверка фильтрации по проектам", () -> {
+    step("Проверкаa фильтрации по проектам", () -> {
       $$(".results.SRWrapper.results").first().shouldHave(text(PROJECT + "ы"));
     });
     step("Проверка,что есть ссылка на раздел Проекты", () -> {
