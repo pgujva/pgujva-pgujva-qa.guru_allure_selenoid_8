@@ -59,7 +59,7 @@ public class StepMainPageSearchTests {
 
   }
 
-  @Disabled
+
   @Test
   @Link(name = "Base URL", value = BASE_URL)
   @Owner("gujvapv")
